@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1585050008533.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4BCDAEAA",
+    "lastKnownWriteTime" : 1585051355,
+    "last_content_update" : 1585051355,
+    "path" : "C:/Users/Dammar Bhandari/OneDrive/Desktop/RNew/Rprogramming/LinearRegression.r",
+    "project_path" : "LinearRegression.r",
+    "properties" : {
+        "cursorPosition" : "2,63",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
