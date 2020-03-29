@@ -36,3 +36,28 @@ oceania_1952<-gapminder%>%filter(year==1952)%>%group_by(continent)
 # Create a bar plot of gdpPercap by country
 ggplot(oceania_1952,aes(x=continent,y=gdpPercap))+geom_col()
 
+
+gapminder_1952 <- gapminder %>%
+  filter(year == 1952) %>%
+  mutate(pop_by_mil = pop / 1000000)
+
+# Create a histogram of population (pop_by_mil)
+ggplot(gapminder_1952, aes(x = pop_by_mil)) +
+  geom_histogram(bins=50)
+
+##
+gapminder_1952 <- gapminder %>%
+  filter(year == 1952)
+
+# Create a histogram of population (pop), with x on a log scale
+ggplot(gapminder_1952, aes(x = pop)) +
+  geom_histogram()+scale_x_log10()
+
+#####
+gapminder_1952 <- gapminder %>%
+  filter(year == 1952)
+
+# Create a boxplot comparing gdpPercap among continents
+ggplot(gapminder_1952, aes(x = continent, y = gdpPercap)) +
+  geom_boxplot() +
+  scale_y_log10()
