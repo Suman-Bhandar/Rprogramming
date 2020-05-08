@@ -26,8 +26,5 @@ Powerful tools are also being developed to perform many tasks that greatly aid t
 
 So although the analytic montra “use the right tool for the problem” should always be in our prefrontal cortex, the advancements and flexibility of R is making it the right tool for many problems.
 
-Community
-
-The R community is fantastically diverse and engaged. On a daily basis, the R community generates opportunities and resources for learning about R. These cover the full spectrum of training - books, online courses, R user groups, workshops, conferences, etc. And with over 2 million users and developers, finding help and technical expertise is only a simple click away. Support is available through R mailing lists, Q&A websites7, social media networks, and numerous blogs.
 
 
