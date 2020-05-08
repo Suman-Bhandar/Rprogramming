@@ -9,6 +9,7 @@ During the last decade, the R programming language has become one of the most wi
 So what makes R such a popular tool?
 
 Open Source
+
 R is an open source software created over 20 years ago by Ihaka and Gentleman at the University of Auckland, New Zealand. However, its history is even longer as its lineage goes back to the S programming language created by John Chambers out of Bell Labs back in the 1970s.1 R is actually a combination of S with lexical scoping semantics inspired by Scheme.2 Whereas the resulting language is very similar in appearance to S, the underlying implementation and semantics are derived from Scheme. Unbeknownst to many the S language has been a popular vehicle for research in statistical methodology, and R provides an open source route to participate in that activity.
 
 Although the history of S and R is interesting3, the principal artifact to observe is that R is an open source software. Although some contest that open-source software is merely a “craze” 4, most evidence suggests that open-source is here to stay and represents a new5 norm for programming languages. Open-source software such as R blurs the distinction between developer and user which provides the ability to extend and modify the analytic functionality to your, or your organization’s needs. The data analysis process is rarely restricted to just a handful of tasks with predictable input and outputs that can be pre-defined by a fixed user interface as is common in proprietary software. Rather, as previosly mentioned in the introduction, data analysis includes unique, different, and often multiple requirements regarding the specific tasks involved. Open source software allows more flexibility for you, the data analyst, to manage how data are being transformed, manipulated, and modeled “under the hood” of software rather than relying on “stiff” point and click software interfaces. Open source also allows you to operate on every major platform rather than be restricted to what your personal budget allows or the idiosyncratic purchases of organizations.
@@ -16,6 +17,7 @@ Although the history of S and R is interesting3, the principal artifact to obser
 This invariably leads to new expectations for data analysts; however, organizations are proving to greatly value the increased technical abilities of open source data analysts as evidenced by a recent O’Reilly survey revealing that data analysts focusing on open source technologies make more money than those still dealing in proprietary technologies.
 
 Flexibility
+
 Another benefit of open source is that anybody can access the source code, modify and improve it. As a result, many excellent programmers contribute to improving existing R code and developing new capabilities. Researchers from all walks of life (academic institutions, industry, and focus groups such as RStudio and rOpenSci) are contributing to advancements of R’s capabilities and best practices. This has resulted in some powerful tools that advance both statistical and non-statistical modeling capabilities that are taking data analysis to new levels.
 
 Many researchers in academic institutions are using and developing R code to develop the latest techniques in statistics and machine learning. As part of their research, they often publish an R package to accompany their research articles6. This provides immediate access to the latest analytic techniques and implementations. And this research is not soley focused on generalized algorithms as many new capabilities are in the form of advancing analytic algorithms for tasks in specific domains. A quick assessment of the different task domains for which code is being developed illustrates the wide spectrum - econometrics, finance, chemometrics & computational physics, pharmacokinetics, social sciences, etc.
@@ -25,24 +27,6 @@ Powerful tools are also being developed to perform many tasks that greatly aid t
 So although the analytic montra “use the right tool for the problem” should always be in our prefrontal cortex, the advancements and flexibility of R is making it the right tool for many problems.
 
 Community
+
 The R community is fantastically diverse and engaged. On a daily basis, the R community generates opportunities and resources for learning about R. These cover the full spectrum of training - books, online courses, R user groups, workshops, conferences, etc. And with over 2 million users and developers, finding help and technical expertise is only a simple click away. Support is available through R mailing lists, Q&A websites7, social media networks, and numerous blogs.
 
-So now that you know how awesome R is, it’s time to learn how to use it.
-
-Go to top
-
-
-
-Consequently, R is named partly after its authors (Ross and Robert) and partly as a play on the name of S. ↩
-
-Morandat, Frances; Hill, Brandon (2012). Evaluating the design of the R language: objects and functions for data analysis. ECOOP’12 Proceedings of the 26th European conference on Object-Oriented Programming. ↩
-
-See Roger Peng’s R programming for Data Science for further, yet concise, details on S and R’s history. ↩
-
-This was recently argued by Pollack et al. which was appropriately rebutted by Boehmke & Jackson. See my post which provides both articles. ↩
-
-Open-source is far from new as its been around for decades (i.e. A-2 in the 1950s, IBM’s ACP in the ’60s, Tiny BASIC in the ’70s) but has gained prominence since the late 1990s. ↩
-
-See The Journal of Statistical Software and The R Journal ↩
-
-Stack Overflow and CrossValidated are two great Q&A sources ↩
